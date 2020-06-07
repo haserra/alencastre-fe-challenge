@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Challenge</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="/styles/pageResults.css" />
+  </head>
+  <body>
+    <h3>Frontend Challenge - Search as you type with auto-complete results</h3>
+    <div id="page-results" class="page-results">
+      <div id="search-wrapper" class="search-wrapper">
+        <input name="search-box" placeholder="" type="text" id="search-box" />
+        <span class="fa fa-search pointer" id="fa-search"></span>
+      </div>
+      <div>
+        <h3 id="num-results"></h3>
+      </div>
+      <div id="results" class="results"></div>
+    </div>
+    <script src="/scripts/pageResults.js"></script>
+  </body>
+</html>
